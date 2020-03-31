@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CREAZIONE STUDENTE</title>
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+	<div id="main">
+		<form method="POST"  action="/eserciziofinale/creacd"	enctype="application/x-www-form-urlencoded" autocomplete="on">
+			<div class="row">
+				<div class="col-25">
+					<label for="fname">Titolo</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="titolo" size="40" maxlength="40" name="titolo"
+						placeholder="Titolo.." required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="lname">Autore</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="autore" size="40" maxlength="40"
+						name="autore" placeholder="Autore.." required>
+				</div>
+			</div>
+			<input type="SUBMIT" class="navigateIn" value="inserisci">
+		</form>
+	</div>
+</body>
+</html>
